@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-05T15:00:42.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Ff9pTIJWxVZ5EHrkQyLO" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-05T15:06:18.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="yElpe2kJTqiDdyjZlhVu" version="15.9.1" type="github">
   <diagram id="3_YQKOACxYvt7XOfBBc9" name="Page-1">
     <mxGraphModel dx="1261" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,12 @@
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mxb0vJzZVwyU6tV7pDCC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" parent="1" source="ZcexI3kBWG93A0h3Vna6-8" target="ZcexI3kBWG93A0h3Vna6-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="605" />
+              <mxPoint x="540" y="455" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Mxb0vJzZVwyU6tV7pDCC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=ERone;endFill=0;exitX=0.911;exitY=-0.024;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.55;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ZcexI3kBWG93A0h3Vna6-7" target="Mxb0vJzZVwyU6tV7pDCC-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -239,6 +244,36 @@
         </mxCell>
         <mxCell id="JJl4Hp-SLf-2lZsOKgYw-36" value="1,m" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="720" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJl4Hp-SLf-2lZsOKgYw-37" value="Тренирует игрока" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJl4Hp-SLf-2lZsOKgYw-38" value="Тренирует команду" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJl4Hp-SLf-2lZsOKgYw-39" value="Играет в команде" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJl4Hp-SLf-2lZsOKgYw-40" value="Является капитаном" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="785" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJl4Hp-SLf-2lZsOKgYw-41" value="Судит лигу" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJl4Hp-SLf-2lZsOKgYw-42" value="Судит матч" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJl4Hp-SLf-2lZsOKgYw-43" value="Принадлежит команде" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJl4Hp-SLf-2lZsOKgYw-44" value="Играет на матче" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="441" y="295" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJl4Hp-SLf-2lZsOKgYw-45" value="Проходит на стадионе" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJl4Hp-SLf-2lZsOKgYw-46" value="Играет в лиге" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="610" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
